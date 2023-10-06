@@ -8,10 +8,81 @@ body {
     width: 100%;
     background-color: black;
 }
+.cursor-pointer {
+    cursor: pointer;
+}
 
 .app {
-    border: 1px solid rgb(84, 84, 197);
     height: 80vh;
     width: 20%;
     background-color: #fff;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+/*          HEADER          */
+
+.header {
+    /* height: 0.1rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0 , 0.1); */
+    border-bottom: 0.1rem solid;
+    border-color: rgba(0, 0, 0 , 0.1);
+    margin-bottom: 10px;
+}
+
+.header-child {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+/* .action-button {
+    
+} */
+.primathon-logo img{
+    width: 150px;
+}
+
+
+/*          AMOUNT - SECTION          */
+
+.amount-section {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.currency span {
+    padding: 0.1rem;
+    border: 2px solid blue;
+    border-radius: 50%;
+    color: goldenrod;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+
+.amount {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.amount .span-text {
+    color: hwb(240 62% 26%);
+}
+
+.amount .span-amount {
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .app {
+        height: 100vh;
+        width: 100%;
+        background-color: #fff;
+    }
 }
