@@ -26,6 +26,10 @@ body {
     color: white !important;
 }
 
+.text-google {
+    color: rgb(245, 92, 41) !important;
+}
+
 
 .app {
     height: 90vh;
