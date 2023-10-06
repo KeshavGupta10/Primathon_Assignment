@@ -1,61 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primathon Screen</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-</head>
-<body>
-    <div class="app">   
-      <div class="header">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="header mb-10px">
         <div class="header-child">
-            <div class="action-button cursor-pointer">
-                <i class="bi bi-arrow-left"></i>
-            </div>
-            <div class="primathon-logo">
-                <img src="./assets/logo.png" alt="Primathon">
-            </div>
+          <div class="action-button cursor-pointer">
+            <i class="bi bi-arrow-left"></i>
+          </div>
+          <div class="primathon-logo">
+            <img src="./assets/logo.png" alt="Primathon" />
+          </div>
         </div>
       </div>
-      <div class="amount-section">
+      <div class="amount-section mb-2rem">
         <div class="currency">
-            <span><i class="bi bi-currency-rupee"></i></span>
+          <span><i class="bi bi-currency-rupee"></i></span>
         </div>
         <div class="amount">
-            <span class="span-text">
-                Amount to pay: 
-            </span>
-            <span class="span-amount">
-                &#x20B9; 599
-            </span>
+          <span class="span-text"> Amount to pay: </span>
+          <span class="span-amount"> &#x20B9; 599 </span>
         </div>
       </div>
-      <div class="payment-methods">
-        <div class="heading">
-            <div class="payment-card-container">
-                <div class="payment-card">
-                    <div class="holder">
-                        <div class="payment-method-logo"></div>
-                        <div class="payment-method-name"></div>
-                    </div>
-                    <div class="cross">
 
-                    </div>
+
+
+
+      <div class="payment-holder-container">
+        <div class="heading mb-2rem">
+            <span>Pay using UPI Apps</span>
+        </div>
+        <div class="payment-methods">
+          <div class="payment-card-parent">
+            <div class="payment-card-container">
+
+              <!-- this * 4 -->
+              <div class="payment-card">
+                <div class="holder">
+                  <div class="payment-method-logo bg-phonepay">
+                    <i class="bi bi-phone-flip"></i>
+                  </div>
+                  <div class="payment-method-name">
+                    Phone Pay
+                  </div>
                 </div>
-                <!-- this * 4 -->
+                <div class="cross">
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="payment-card">
+                <div class="holder">
+                  <div class="payment-method-logo">
+                    <i class="bi bi-phone-flip"></i>
+                  </div>
+                  <div class="payment-method-name">
+                    Google Pay
+                  </div>
+                </div>
+                <div class="cross">
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="payment-card">
+                <div class="holder">
+                  <div class="payment-method-logo">
+                    <i class="bi bi-phone-flip"></i>
+                  </div>
+                  <div class="payment-method-name">
+                    Paytm
+                  </div>
+                </div>
+                <div class="cross">
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="payment-card">
+                <div class="holder">
+                  <div class="payment-method-logo">
+                    <i class="bi bi-phone-flip"></i>
+                  </div>
+                  <div class="payment-method-name">
+                    BHIM
+                  </div>
+                </div>
+                <div class="cross">
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>
+              </div>
+              <!-- this * 4 -->
+
+
             </div>
             <div class="seperator-container">
-                <div class="seperator-text">
-                    <span></span>
-                </div>
-                <div class="seperator"></div>
+              <div class="seperator-text">
+                <span></span>
+              </div>
+              <div class="seperator"></div>
             </div>
-
+          </div>
         </div>
       </div>
+
+
+
+
+
+
+      
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

@@ -7,13 +7,28 @@ body {
     height: 100vh;
     width: 100%;
     background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .cursor-pointer {
     cursor: pointer;
 }
 
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
+.bg-phonepay {
+    background-color: #663AB7 !important;
+    color: white !important;
+}
+
+
 .app {
-    height: 80vh;
+    height: 90vh;
     width: 20%;
     background-color: #fff;
     overflow: hidden;
@@ -28,7 +43,6 @@ body {
     background-color: rgba(0, 0, 0 , 0.1); */
     border-bottom: 0.1rem solid;
     border-color: rgba(0, 0, 0 , 0.1);
-    margin-bottom: 10px;
 }
 
 .header-child {
@@ -55,7 +69,7 @@ body {
 
 .currency span {
     padding: 0.1rem;
-    border: 2px solid blue;
+    border: 2px solid #004B8D;
     border-radius: 50%;
     color: goldenrod;
     font-size: 1rem;
@@ -72,9 +86,63 @@ body {
 }
 
 .amount .span-amount {
-    color: blue;
+    color: #004B8D;
     font-weight: bold;
 }
+
+/*          PAYMENT - METHODS           */
+
+.payment-holder-container {
+    background-color: #F8FAFD;
+}
+
+.payment-holder-container .heading {
+    font-size: 1.4rem;
+}
+.payment-card {
+    background-color: #004B8D;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+.payment-card .holder {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.payment-method-name {
+    font-size: 1.5rem;   
+    margin-left: 1rem; 
+}
+
+.payment-method-logo {
+    background-color: #fff;
+    color: #004B8D;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.cross {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
