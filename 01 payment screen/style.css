@@ -17,8 +17,8 @@ body {
     margin-bottom: 10px;
 }
 
-.mb-2rem {
-    margin-bottom: 2rem;
+.mb-1rem {
+    margin-bottom: 1rem;
 }
 
 .bg-phonepay {
@@ -47,6 +47,7 @@ body {
     background-color: rgba(0, 0, 0 , 0.1); */
     border-bottom: 0.1rem solid;
     border-color: rgba(0, 0, 0 , 0.1);
+    position: sticky;
 }
 
 .header-child {
@@ -59,7 +60,7 @@ body {
     
 } */
 .primathon-logo img{
-    width: 150px;
+    width: 100px;
 }
 
 
@@ -86,7 +87,7 @@ body {
 }
 
 .amount .span-text {
-    color: hwb(240 62% 26%);
+    color: #9e9ebd;
 }
 
 .amount .span-amount {
@@ -101,7 +102,7 @@ body {
 }
 
 .payment-holder-container .heading {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .payment-card {
     background-color: #004B8D;
@@ -110,8 +111,8 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
+    padding: 0 1rem;
+    margin: 1rem 0; 
 }
 
 .payment-card .holder {
@@ -121,27 +122,117 @@ body {
 }
 
 .payment-method-name {
-    font-size: 1.5rem;   
+    font-size: 1.3rem;   
     margin-left: 1rem; 
 }
-
+.payment-methods {
+    margin-bottom: 1rem;
+}
 .payment-method-logo {
     background-color: #fff;
     color: #004B8D;
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 .cross {
     color: #fff;
     border-radius: 50%;
-    padding: 0.5rem;
-    font-size: 2rem;
+    padding: 0.2rem;
+    font-size: 1.8rem;
+}
+/*              SEPERATOR               */
+
+.seperator-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100%;
+    position: relative;
+}
+.seperator-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 12;
+}
+.seperator-text .text {
+    background-color: #F8FAFD;
+    padding: 0 1rem;
+    z-index: 2;
+}
+.seperator-container .line {
+    height: 0.11rem;
+    width: 100%;
+    z-index: 1;
+    background: rgb(196, 181, 181);
+    position: absolute;
+    top: 50%;
+}
+
+
+
+.get-payment-link-holder .heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.get-payment-link-holder .sub-heading {
+    color: #9e9ebd;
+    margin-bottom: 5px;
+}
+
+.fields-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.fields-group input {
+    border: none;
+    border-bottom: 1px solid #b5b5cb;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    color: #004B8D;
+    font-weight: bold;
+}
+
+.fields-group button {
+    border: 2px solid #004B8D;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    color: #004B8D;
+    padding: 0.1rem 1rem;
+}
+.whatsapp-updates {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.whatsapp-updates .heading {
+    font-weight: bold;
+}
+
+.whatsapp-updates .sub-heading {
+    color: #9e9ebd;
+}
+
+.whatsapp-updates .holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #F8FAFD;
+}
 
 
 

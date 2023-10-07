@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      <div class="amount-section mb-2rem">
+      <div class="amount-section mb-1rem">
         <div class="currency">
           <span><i class="bi bi-currency-rupee"></i></span>
         </div>
@@ -41,7 +41,7 @@
             <div class="payment-card-container">
 
               <!-- this * 4 -->
-              <div class="payment-card">
+              <div id="phonePeButton" class="payment-card phone-pay-id">
                 <div class="holder">
                   <div class="payment-method-logo bg-phonepay">
                     <i class="bi bi-phone-flip"></i>
@@ -55,7 +55,7 @@
                 </div>
               </div>
 
-              <div class="payment-card">
+              <div id="googlePayButton" class="payment-card">
                 <div class="holder">
                   <div class="payment-method-logo text-google">
                     <i class="bi bi-google"></i>
@@ -102,13 +102,53 @@
             </div>
             <div class="seperator-container">
               <div class="seperator-text">
-                <span></span>
+                <span class="text">OR</span>
               </div>
-              <div class="seperator"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="get-payment-link-holder mb-10px">
+          <div class="heading">
+            Get Payment Link
+          </div>
+          <div class="sub-heading">
+            You will get a payment link on
+          </div>
+          <div class="fields">
+            <div class="fields-group">
+              <input type="text" id="phoneNumberInput" value="+91-7838848523">
+              <button>send</button>
             </div>
           </div>
         </div>
       </div> 
+
+      <div class="whatsapp-updates">
+        <div class="heading">
+          Get WhatsApp and SMS Updates
+        </div>
+        <div class="sub-heading">
+          <div class="holder">
+            <div class="text">Click on this to turn off updates</div>
+            <div class="toggler">
+              <input type="checkbox" name="" id="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <footer>
+        <div class="footer-container">
+          <div class="footer-text">
+            <span>Powered by</span>
+            <span class="primathon-logo">
+              <img src="./assets/logo.png" alt="Primathon" />
+            </span>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="script.js"></script>
   </body>
